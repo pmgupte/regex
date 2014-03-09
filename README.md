@@ -18,3 +18,6 @@ This regex matches Visa, MasterCard, American Express, Diners Club, Discover, an
 1. `^[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}$`
 2. `/^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$/i`
 This one is implied regex, and seems that this one is better than regex no. 1.
+
+<h2>Email Address</h2>
+1. `^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$`
