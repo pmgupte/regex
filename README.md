@@ -12,3 +12,4 @@ This regex matches Visa, MasterCard, American Express, Diners Club, Discover, an
 
 <h2>Hex Color Code</h2>
 1. `^#(?:[0-9a-fA-F]{3}){1,2}$`
+2. `^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$`
