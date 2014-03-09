@@ -13,3 +13,8 @@ This regex matches Visa, MasterCard, American Express, Diners Club, Discover, an
 <h2>Hex Color Code</h2>
 1. `^#(?:[0-9a-fA-F]{3}){1,2}$`
 2. `^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$`
+
+<h2>UUID/GUID</h2>
+1. `^[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}$`
+2. `/^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$/i`
+This one is implied regex, and seems that this one is better than regex no. 1.
