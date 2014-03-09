@@ -26,3 +26,7 @@ This one is implied regex, and seems that this one is better than regex no. 1.
 
 <h2>Email Address</h2>
 1. `^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$`
+
+<h2>Base 64 Encode</h2>
+1. `[^-A-Za-z0-9+/=]|=[^=]|={3,}$`
+2. `^(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$`
