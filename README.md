@@ -7,7 +7,7 @@ This repository is a collection of regular expressions. There could be multiple 
 3. [Hex Color Code](#hex-color-code)
 4. [UUID/GUID](#uuidguid)
 5. [Email Address](#email-address)
-6. [Base64 Encode](#base64-encode)
+6. [Base64 Encode](#base-64-encode)
 7. [Date and Time](#date-and-time)
 
 <h2>IP Address</h2>
