@@ -7,6 +7,8 @@ This repository is a collection of regular expressions. There could be multiple 
 3. [Hex Color Code](#hex-color-code)
 4. [UUID/GUID](#uuidguid)
 5. [Email Address](#email-address)
+6. [Base64 Encode](#base64-encode)
+7. [Date and Time](#date-and-time)
 
 <h2>IP Address</h2>
 1. `^([01]?\d\d?<2[0-4]\d<25[0-5])\.([01]?\d\d?<2[0-4]\d<25[0-5])\.([01]?\d\d?<2[0-4]\d<25[0-5])\.([01]?\d\d?<2[0-4]\d<25[0-5])$`
@@ -30,3 +32,6 @@ This one is implied regex, and seems that this one is better than regex no. 1.
 <h2>Base 64 Encode</h2>
 1. `[^-A-Za-z0-9+/=]|=[^=]|={3,}$`
 2. `^(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$`
+
+<h2>Date and Time</h2>
+1. `^(0?[1-9]|[12][0-9]|3[01])[\/\-\.](0?[1-9]|1[012])[\/\-\.](\d{4})\s([0-1][0-9]|[2][0-3])\-([0-5][0-9])\-([0-5][0-9])$`
