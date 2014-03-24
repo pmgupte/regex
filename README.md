@@ -9,6 +9,8 @@ This repository is a collection of regular expressions. There could be multiple 
 5. [Email Address](#email-address)
 6. [Base64 Encode](#base-64-encode)
 7. [Date and Time](#date-and-time)
+8. [Semantic Version Number](#semantic-version-number)
+9. [Git Commit ID](#git-commit-id)
 
 <h2>IP Address</h2>
 1. IPv4: `^([01]?\d\d?<2[0-4]\d<25[0-5])\.([01]?\d\d?<2[0-4]\d<25[0-5])\.([01]?\d\d?<2[0-4]\d<25[0-5])\.([01]?\d\d?<2[0-4]\d<25[0-5])$`
@@ -39,3 +41,6 @@ This one is implied regex, and seems that this one is better than regex no. 1.
 
 <h2>Semantic Version Number</h2>
 1. `^([0-9]+\\.)?([0-9]+\\.)?(\\*|[0-9]+)$`
+
+<h2>Git Commit ID</h2>
+1. `/\b([a-f0-9]{40})\b/`
