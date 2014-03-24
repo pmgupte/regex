@@ -36,3 +36,6 @@ This one is implied regex, and seems that this one is better than regex no. 1.
 
 <h2>Date and Time</h2>
 1. `^(0?[1-9]|[12][0-9]|3[01])[\/\-\.](0?[1-9]|1[012])[\/\-\.](\d{4})\s([0-1][0-9]|[2][0-3])\-([0-5][0-9])\-([0-5][0-9])$`
+
+<h2>Semantic Version Number</h2>
+1. `^([0-9]+\\.)?([0-9]+\\.)?(\\*|[0-9]+)$`
