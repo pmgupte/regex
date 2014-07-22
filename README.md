@@ -1,6 +1,8 @@
 <h1>regex</h1>
 This repository is a collection of regular expressions. There could be multiple regular expressions per requirement.
 
+Please note that, these regular expressions are mainly POSIX compliant (though, few of them may not be).
+
 <h2>Table of Contents</h2>
 1. [IP Address](#ip-address)
 2. [Credit Card](#credit-card)
