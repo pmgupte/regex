@@ -13,6 +13,7 @@ Please note that, these regular expressions are mainly POSIX compliant (though, 
 7. [Date and Time](#date-and-time)
 8. [Semantic Version Number](#semantic-version-number)
 9. [Git Commit ID](#git-commit-id)
+10. [Docker Image ID](#docker-image-id)
 
 ## IP Address
 1. IPv4: `^([01]?\d\d?<2[0-4]\d<25[0-5])\.([01]?\d\d?<2[0-4]\d<25[0-5])\.([01]?\d\d?<2[0-4]\d<25[0-5])\.([01]?\d\d?<2[0-4]\d<25[0-5])$`
