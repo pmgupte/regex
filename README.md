@@ -46,3 +46,6 @@ This one is implied regex, and seems that this one is better than regex no. 1.
 
 ## Git Commit ID
 1. `/\b([a-f0-9]{40})\b/`
+
+## Docker image ID
+1. `^([A-Fa-f0-9]{12}|[A-Fa-f0-9]{64})$`
